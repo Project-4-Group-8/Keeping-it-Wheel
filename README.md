@@ -16,7 +16,9 @@ Buying a car for the first time can be a stressful experience, especially if you
 ## Data ETL
 
 
+
 ## Analysis and Conclusion
+![Image](Images/TableofMLModels.png)
 
 
 ## Data Sources
