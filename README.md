@@ -26,7 +26,7 @@ Due to the size of the dataset and limiting memory inside jupyter notebook and g
 
 * Google colab gave us results with less number of sample records. Therefore, we used jupyter notebook as it was able to give us results with 30,000 records. 
 
-* 
+
 ## Cleaned Data:
 
 * After the data was cleaned, we split the data into x and y values. Our X had the following columns : ["year","make","model","miles","trim"] and y was ["sold_price"]
@@ -48,14 +48,11 @@ After the satandardizing the data, we made our dataset run through multiple mode
 * SVR
 
 
+## Our Website 
 
+We were able to deploy our tableau dashboard and regression models to our website. 
 
-
-
-
-
-
-## Deployment to a Website
+![Tableau](Images/tableaudashboard.png)
 
 
 
