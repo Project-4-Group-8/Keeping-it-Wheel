@@ -18,8 +18,40 @@ Buying a car for the first time can be a stressful experience, especially if you
 Due to the size of the dataset and limiting memory inside jupyter notebook and google colab, we were not able to use all the records to run our model. the highest number of records that we were able to use was 30,000. We took 30,000 random samples from our dataset to run our supervised machine learning regression models.
 
 ## Data ETL
+* We were able to extract a car price dataset from amazonaws.com. [car data](https://aws.amazon.com/marketplace/pp/prodview-y77x3t6zisn4w?sr=0-2&ref_=beagle&applicationId=AWSMPContessa#dataSets) is the dataset that we've used. It comprises of 44365 rows and 13 columns.
+
+* We cleanedand transformed the data by loading it to PostgreSql Database and retrieved the required data from postgresql database for our machine learning algorithms.
+
+* We used 30,000 random samples from our dataset to run the models. We were not able to use all the records due to the memory limitations inside jupyter notebook and as well as google colab. 
+
+* Google colab gave us results with less number of sample records. Therefore, we used jupyter notebook as it was able to give us results with 30,000 records. 
+
+* 
+## Cleaned Data:
+
+* After the data was cleaned, we split the data into x and y values. We used get_dummies to have all numerical values for our x data.
+* 
+
+## Supervised Machine Learning Models 
 
 
+
+
+We made our dataset run through multiple models. Models Used :
+* RandomTreesREgressor
+* DecisionTressRegressor
+* Linear Regression
+*  
+
+
+
+
+
+
+
+
+
+## Deployment to a Website
 
 
 
