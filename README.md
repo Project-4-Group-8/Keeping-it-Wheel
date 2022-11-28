@@ -29,8 +29,10 @@ Due to the size of the dataset and limiting memory inside jupyter notebook and g
 
 ## Cleaned Data:
 
-* After the data was cleaned, we split the data into x and y values. Our X had the following columns : ["year","make","model","miles","trim"] and y was ["sold_price"]
+* After the data was cleaned, we split the data into x and y values. 
+* Our X had the following columns : year, make, model, miles, trim and y is: sold_price
 * We used get_dummies to have all numerical values for our x data. 
+* After converting the X data, we end up with 30,000 rows and 2143 columns.  
 * We split the data into x_train,x_test, y_train and y_test and used standard scaler to standardize the data. 
 
 ## Supervised Machine Learning Models 
