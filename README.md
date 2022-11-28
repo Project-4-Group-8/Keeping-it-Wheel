@@ -29,19 +29,23 @@ Due to the size of the dataset and limiting memory inside jupyter notebook and g
 * 
 ## Cleaned Data:
 
-* After the data was cleaned, we split the data into x and y values. We used get_dummies to have all numerical values for our x data.
-* 
+* After the data was cleaned, we split the data into x and y values. Our X had the following columns : ["year","make","model","miles","trim"] and y was ["sold_price"]
+* We used get_dummies to have all numerical values for our x data. 
+* We split the data into x_train,x_test, y_train and y_test and used standard scaler to standardize the data. 
 
 ## Supervised Machine Learning Models 
 
-
-
-
-We made our dataset run through multiple models. Models Used :
+After the satandardizing the data, we made our dataset run through multiple models. Models Used :
 * RandomTreesREgressor
 * DecisionTressRegressor
 * Linear Regression
-*  
+* KNeighborsRegressor
+* GradientBoostingRegressor
+* ExtraTreesRegressor
+* AdaBoostRegressor
+* Ridge
+* Lasso
+* SVR
 
 
 
