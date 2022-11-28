@@ -24,7 +24,7 @@ Due to the size of the dataset and limiting memory inside jupyter notebook and g
 
 * We used 30,000 random samples from our dataset to run the models. We were not able to use all the records due to the memory limitations inside jupyter notebook and as well as google colab. 
 
-* Google colab gave us results with less number of sample records. Therefore, we used jupyter notebook as it was able to give us results with 30,000 records. 
+* Google colab gave us results with less number of sample records. Therefore, we used jupyter notebook as it was able to give us results with 30,000 records.
 
 
 ## Cleaned Data:
@@ -38,7 +38,8 @@ Due to the size of the dataset and limiting memory inside jupyter notebook and g
 ## Supervised Machine Learning Models 
 
 After the satandardizing the data, we made our dataset run through multiple models. Models Used :
-* RandomTreesREgressor
+* RandomForestTreesRegressor --> took almost 1 hour to run with parameters. 
+* RandomForestTreesREgressor (without parameters)
 * DecisionTressRegressor
 * Linear Regression
 * KNeighborsRegressor
