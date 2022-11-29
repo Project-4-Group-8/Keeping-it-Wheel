@@ -53,7 +53,7 @@
         <ul>
           <li><a href="index.html" class="active">Home</a></li>
           <li><a href=#about>Model Prediction</a></li>
-          <li><a href=#services>Services</a></li>
+          <li><a href=#plots>Plots</a></li>
           <li><a href=#tableau>Tableau</a></li>
           <li><a href=#contact>Contact</a></li>
         </ul>
@@ -142,94 +142,191 @@
     </section>
     <!-- End Model Description Section -->
 
-    <!-- ======= Services Section ======= -->
-    <section id="services" class="services section-bg">
+    <!-- ======= Plots Section ======= -->
+    <section id="plots" class="projects">
       <div class="container" data-aos="fade-up">
 
         <div class="section-header">
-          <h2 id = "services">Services</h2>
-          <p>Voluptatem quibusdam ut ullam perferendis repellat non ut consequuntur est eveniet deleniti fignissimos eos quam</p>
+          <h2>Plots</h2>
+          <p>Take a look below for some additional data on our car prediction model. As you can see, a car's price is dependent on multiple factors. 
+            Below are few examples of how these trends have changed throughout the years.
+          </p>
         </div>
 
-        <div class="row gy-4">
+        <div class="portfolio-isotope" data-portfolio-filter="*" data-portfolio-layout="masonry" data-portfolio-sort="original-order">
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-item  position-relative">
-              <div class="icon">
-                <i class="fa-solid fa-mountain-city"></i>
-              </div>
-              <h3>Nesciunt Mete</h3>
-              <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
-              <a href="service-details.html" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a>
-            </div>
-          </div><!-- End Service Item -->
+          <ul class="portfolio-flters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-remodeling">Bar Plots</li>
+            <li data-filter=".filter-construction">Construction</li>
+            <li data-filter=".filter-repairs">Repairs</li>
+            <li data-filter=".filter-design">Design</li>
+          </ul><!-- End Projects Filters -->
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="fa-solid fa-arrow-up-from-ground-water"></i>
-              </div>
-              <h3>Eosle Commodi</h3>
-              <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
-              <a href="service-details.html" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a>
-            </div>
-          </div><!-- End Service Item -->
+          <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="fa-solid fa-compass-drafting"></i>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/plots/Bar-Plot-Sold-Price.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Bar Plot-1</h4>
+                  <p>As seen in the plot, car price and year has an exponential realtionship with the largest increase occuring this 
+                    past year most likely as an effect of Covid and the beginnings of a recession.
+                  </p>
+                  <a href="assets/img/plots/Bar-Plot-Sold-Price.png" title="Sold Price vs Year" 
+                  data-gallery="portfolio-gallery-remodeling" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <i class="bi bi-link-45deg"></i></a>
+                </div>
               </div>
-              <h3>Ledo Markt</h3>
-              <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
-              <a href="service-details.html" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a>
-            </div>
-          </div><!-- End Service Item -->
+            </div><!-- End Projects Item -->
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="fa-solid fa-trowel-bricks"></i>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/plots/Bar-Plot-Mileage.png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Bar Plot-2</h4>
+                  <p>Since 2013, car mileage has been on the decline with the greatest decline occuring since 2021. This can be
+                    attributed to the increase in work from home jobs due to the pandemic.
+                  </p>
+                  <a href="assets/img/plots/Bar-Plot-Mileage.png" title="Mileage vs Year" 
+                  data-gallery="portfolio-gallery-remodeling" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <i class="bi bi-link-45deg"></i></a>
+                </div>
               </div>
-              <h3>Asperiores Commodit</h3>
-              <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p>
-              <a href="service-details.html" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a>
-            </div>
-          </div><!-- End Service Item -->
+            </div><!-- End Projects Item -->
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="fa-solid fa-helmet-safety"></i>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-repairs">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/repairs-1.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Repairs 1</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="assets/img/projects/repairs-1.jpg" title="Repairs 1" data-gallery="portfolio-gallery-repairs" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
               </div>
-              <h3>Velit Doloremque</h3>
-              <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.</p>
-              <a href="service-details.html" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a>
-            </div>
-          </div><!-- End Service Item -->
+            </div><!-- End Projects Item -->
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="fa-solid fa-arrow-up-from-ground-water"></i>
+            <div class="col-lg-4 col-md-6 portfolio-item filter-design">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/design-1.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Design 1</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="assets/img/projects/design-1.jpg" title="Repairs 1" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
               </div>
-              <h3>Dolori Architecto</h3>
-              <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p>
-              <a href="service-details.html" class="readmore stretched-link">Learn more <i class="bi bi-arrow-right"></i></a>
-            </div>
-          </div><!-- End Service Item -->
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/remodeling-2.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Remodeling 2</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="assets/img/projects/remodeling-2.jpg" title="Remodeling 2" data-gallery="portfolio-gallery-remodeling" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/construction-2.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Construction 2</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="assets/img/projects/construction-2.jpg" title="Construction 2" data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-repairs">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/repairs-2.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Repairs 2</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="assets/img/projects/repairs-2.jpg" title="Repairs 2" data-gallery="portfolio-gallery-repairs" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-design">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/design-2.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Design 2</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="assets/img/projects/design-2.jpg" title="Repairs 2" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-remodeling">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/remodeling-3.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Remodeling 3</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="assets/img/projects/remodeling-3.jpg" title="Remodeling 3" data-gallery="portfolio-gallery-remodeling" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-construction">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/construction-3.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Construction 3</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="assets/img/projects/construction-3.jpg" title="Construction 3" data-gallery="portfolio-gallery-construction" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-repairs">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/repairs-3.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Repairs 3</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="assets/img/projects/repairs-3.jpg" title="Repairs 2" data-gallery="portfolio-gallery-repairs" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-design">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/projects/design-3.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Design 3</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="assets/img/projects/design-3.jpg" title="Repairs 3" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="project-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Projects Item -->
+
+          </div><!-- End Plots Container -->
 
         </div>
 
       </div>
-    </section><!-- End Services Section -->
-
+    </section><!-- End Our Plots Section -->
     <!-- ======= Tableau Section ======= -->
     <section id="alt-services" class="alt-services">
       <div class="container" data-aos="fade-up">
         <div class="section-header">
           <h2 id = "tableau">Car Selector</h2>
-          <p>Try out our car selctor below to see what car is right for you! Just put in your budget, select the make and model, and see what </p>
+          <p>Try out our car selctor below to see what car is right for you! Just put in your budget, select the make and model, and add on any desired features. </p>
         </div>
         <div class='tableauPlaceholder' id='viz1669589144077' style='position: relative'>
           <noscript><a href='#'><img alt='Car Popularity and Price Ranges ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ke&#47;KeepingitWheel&#47;CarPopularityandPriceRanges&#47;1_rss.png' 
@@ -241,8 +338,6 @@
             <script type='text/javascript'>                    
             var divElement = document.getElementById('viz1669589144077');                    
             var vizElement = divElement.getElementsByTagName('object')[0];                    
-            // if ( divElement.offsetWidth > 800 ) { vizElement.style.width='800px';vizElement.style.height='627px';} 
-            // else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='800px';vizElement.style.height='627px';} 
             vizElement.style.width='100%';vizElement.style.height='1000px';
             var scriptElement = document.createElement('script');                    
             scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
