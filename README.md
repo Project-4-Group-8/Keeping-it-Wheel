@@ -53,9 +53,9 @@ After the standardizing the data, we ran our dataset through multiple models. Mo
 
 ## Our Website 
 Using the a bootstrap html template, our group was able to create a website with the following attributes:
-*Background information on the Regression model
-*Deployed Tableau dashboard
-*Multiple plots to show trending of data
+* Background information on the Regression model
+* Deployed Tableau dashboard
+* Multiple plots to show trending of data
 
 ![Tableau](Images/tableaudashboard.png)
 
