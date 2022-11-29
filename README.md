@@ -69,6 +69,8 @@ Using the a bootstrap html template, our group was able to create a website with
 
 It can be concluded that RandomForestRegressor Model is the best model for predicting car prices sold. The model with no parameters took the least amount of time and gave us better results than the other models. The DeicisionTreesRegresor model gave us high accuracy but it is likely overfitting over data and is being highly affected by outliers. RandomForestRegressor model is highly accurate and is unlikely to overfit our data. The only disadvantage of using RandomForestREgressor model is that it is slow to build and takes a long time for the computational process to execute. 
 
+![Image](Images/modelsdashboard.png)
+
 
 ## Data Sources
 * ["Money Under 30" Article](https://www.moneyunder30.com/how-much-car-can-you-afford)
