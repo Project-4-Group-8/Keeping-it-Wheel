@@ -67,7 +67,7 @@ Using the a bootstrap html template, our group was able to create a website with
 ## Data Sources
 * ["Money Under 30" Article](https://www.moneyunder30.com/how-much-car-can-you-afford)
 * [AWS Marketplace - Carvana Car Sales for United States](https://aws.amazon.com/marketplace/pp/prodview-y77x3t6zisn4w?sr=0-2&ref_=beagle&applicationId=AWSMPContessa#offers)
-* [Kaggle - Car Price Prediction Challenge] (https://www.kaggle.com/datasets/deepcontractor/car-price-prediction-challenge)
+* [Kaggle - Car Price Prediction Challenge](https://www.kaggle.com/datasets/deepcontractor/car-price-prediction-challenge)
 * First image was taken from: [Car Image](https://plungedindebt.com/wp-content/uploads/2019/08/Leasing-A-Car.jpg)
 *Boot strap template (https://bootstrapmade.com/upconstruction-bootstrap-construction-website-template/)
 
