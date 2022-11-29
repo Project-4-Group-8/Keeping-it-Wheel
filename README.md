@@ -52,6 +52,10 @@ After the standardizing the data, we ran our dataset through multiple models. Mo
 
 A function was used to run the models without any parameters. We used Hyperparamters tuning (GridSearchCV) with RandomForestRegressor model. we wanted to see if our model score would increase or decrease after the tuning. 
 
+## Tableau Dashboard
+We used a dataset that is also up to date and contained more car features.
+We created a price filter using a parameter and created calculated field that checks if price is within range with true/false statements. We also generated a car age calculated field and put them into strings using if/else statements. Within dashboard, we made 2 action filters for category and make.
+
 
 ## Our Website 
 Using the a bootstrap html template, our group was able to create a website with the following attributes:
