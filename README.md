@@ -38,7 +38,7 @@ Due to the size of the dataset and limiting memory inside jupyter notebook and g
 ## Supervised Machine Learning Models 
 
 After the standardizing the data, we ran our dataset through multiple models. Models Used :
-* RandomForestTreesRegressor --> took almost 1 hour to run with parameters. 
+* RandomForestTreesRegressor --> took almost 30 minutes to run with parameters. 
 * RandomForestTreesREgressor (without parameters)
 * DecisionTressRegressor
 * Linear Regression
@@ -49,6 +49,8 @@ After the standardizing the data, we ran our dataset through multiple models. Mo
 * Ridge
 * Lasso
 * SVR
+
+A function was used to run the models without any parameters. We used Hyperparamters tuning (GridSearchCV) with RandomForestRegressor model. we wanted to see if our model score would increase or decrease after the tuning. 
 
 
 ## Our Website 
@@ -62,6 +64,8 @@ Using the a bootstrap html template, our group was able to create a website with
 
 ## Analysis and Conclusion
 ![Image](Images/TableofMLModels.png)
+
+It can be concluded that RandomForestRegressor Model is the best model for predicting car prices sold. The model with no parameters took the least amount of time and gave us better results than the other models. The DeicisionTreesRegresor model gave us high accuracy but it is likely overfitting over data and is being highly affected by outliers. RandomForestRegressor model is highly accurate and is unlikely to overfit our data. The only disadvantage of using RandomForestREgressor model is that it is slow to build and takes a long time for the computational process to execute. 
 
 
 ## Data Sources
