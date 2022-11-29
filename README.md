@@ -52,11 +52,12 @@ After the standardizing the data, we ran our dataset through multiple models. Mo
 
 
 ## Our Website 
-
-We were able to deploy our tableau dashboard and regression models to our website. 
+Using the a bootstrap html template, our group was able to create a website with the following attributes:
+*Background information on the Regression model
+*Deployed Tableau dashboard
+*Multiple plots to show trending of data
 
 ![Tableau](Images/tableaudashboard.png)
-
 
 
 ## Analysis and Conclusion
@@ -68,4 +69,5 @@ We were able to deploy our tableau dashboard and regression models to our websit
 * [AWS Marketplace - Carvana Car Sales for United States](https://aws.amazon.com/marketplace/pp/prodview-y77x3t6zisn4w?sr=0-2&ref_=beagle&applicationId=AWSMPContessa#offers)
 * [Kaggle - Car Price Prediction Challenge] (https://www.kaggle.com/datasets/deepcontractor/car-price-prediction-challenge)
 * First image was taken from: [Car Image](https://plungedindebt.com/wp-content/uploads/2019/08/Leasing-A-Car.jpg)
+*Boot strap template (https://bootstrapmade.com/upconstruction-bootstrap-construction-website-template/)
 
