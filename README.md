@@ -14,7 +14,7 @@
 ## Overview
 Buying a car for the first time can be a stressful experience, especially if you’re a recent college graduate. We have a client who has just graduated college and is looking for a new car to commute to his new job. We have been hired to predict car prices to help our client make the best economical decision on his car purchase. We will be performing Supervised Machine Learning Algorithms to our Datasets. We will fit the model, train and predict the model using supervised algorithms. We will be using Jupyter notebook, python, pandas for cleaning and SQL database as our data retrieval source in our ETL process.
 
-## Limiations 
+## Limitations 
 Due to the size of the dataset and limiting memory inside jupyter notebook and google colab, we were not able to use all the records to run our model. the highest number of records that we were able to use was 30,000. We took 30,000 random samples from our dataset to run our supervised machine learning regression models.
 
 ## Data ETL
