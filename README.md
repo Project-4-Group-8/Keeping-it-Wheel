@@ -59,7 +59,9 @@ Using the a bootstrap html template, our group was able to create a website with
 * Deployed Tableau dashboard
 * Multiple plots to show trending of data
 
-![Tableau](Images/tableaudashboard.png)
+![indexpage](Images/indexpage.png) 
+![Model-Description](Images/2ndpage.png) 
+![Tableau](Images/tableaudashboard.png) 
 
 
 ## Analysis and Conclusion
